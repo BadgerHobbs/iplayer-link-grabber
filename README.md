@@ -2,6 +2,8 @@
 
 This Firefox Web Extension allows you to collect BBC iPlayer episode links from multiple pages into a single, de-duplicated list. It's designed for easily gathering content for use with download managers like `yt-dlp`.
 
+![image](https://github.com/user-attachments/assets/afb0c818-d9b5-4e97-a18e-eada63252c16)
+
 ## Features
 
 - **Collect from Multiple Pages**: Add URLs from any iPlayer page to a persistent list.
