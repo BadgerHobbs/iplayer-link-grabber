@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>iPlayer Link Grabber</title>
+    <style>
+        body {
+            font-family: sans-serif;
+            width: 280px;
+            padding: 10px;
+        }
+
+        h3 {
+            text-align: center;
+            margin-top: 0;
+        }
+
+        button {
+            width: 100%;
+            padding: 10px;
+            margin-top: 10px;
+            border: 1px solid #ccc;
+            background-color: #f0f0f0;
+            cursor: pointer;
+            border-radius: 4px;
+        }
+
+        button:hover {
+            background-color: #e0e0e0;
+        }
+
+        #clearUrlsBtn {
+            background-color: #f8d7da;
+        }
+
+        #clearUrlsBtn:hover {
+            background-color: #f5c6cb;
+        }
+
+        .info,
+        #status {
+            margin-top: 15px;
+            font-size: 0.9em;
+            color: #333;
+            text-align: center;
+            min-height: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <h3>iPlayer Link Grabber</h3>
+
+    <button id="collectUrlsBtn">Collect URLs from this Page</button>
+
+    <div class="info">
+        Collected URLs: <strong id="urlCount">0</strong>
+    </div>
+
+    <button id="copyUrlsBtn">Copy All URLs</button>
+    <button id="copyScriptBtn">Copy All as yt-dlp Script</button>
+    <button id="clearUrlsBtn">Clear List</button>
+
+    <div id="status"></div>
+
+    <script src="popup.js"></script>
+</body>
+
+</html>
